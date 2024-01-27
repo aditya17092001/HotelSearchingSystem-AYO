@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: black;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.ayo.com</title>
+    <link rel="stylesheet" href="CSS/homePage.css">
+
+</head>
+
+<body>
+    <div class="hexagon">
+        <nav id="navbar">
+            <div id="logo">
+                <img src="img/logo.png" alt="ayo.com">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contactus">Contact us</a></li>
+                <li><a href="adminLogin.jsp">Admin</a></li>
+            </ul>
+
+            <div id="login">
+                <input type="button" class="btn" value="Log in" id="loginButton">
+                <script>
+                    const loginButton = document.getElementById('loginButton');
+
+                    loginButton.addEventListener('click', function () {
+                        window.location.href = 'login.jsp';
+                    });
+                </script>
+                <input type="button" class="btn" value="Sign up" id="signupButton">
+                <script>
+                    const signupButton = document.getElementById('signupButton');
+
+                    signupButton.addEventListener('click', function () {
+                        window.location.href = 'signup.jsp';
+                    });
+                </script>
+            </div>
+        </nav>
+        <section id="home">
+            <img src="img/logo.png" alt="" >
+            <div id="left"></div>
+            <div id="right"></div>
+        </section>
+    </div>
+    <div class="hexagon">
+	    <section id="services-container">
+	        <h1 class="services-box">Our Services</h1>
+	        <div id="services">
+	            <div id="left-services">
+	                <img src="img/ac.png" alt="ac" >
+	                <ul>
+	                    <li>Comfortable and spacious room with air conditioning for a pleasant stay.</li>
+	                    <li>Ideal for guests seeking a cool and refreshing environment.</li>
+	                    <li>Equipped with modern air conditioning systems to maintain a comfortable temperature.</li>
+	                </ul>
+	                <form action="login.jsp">
+	                    <p>Get the best Rooms</p>
+	                    <input type="submit" class="acroom" value="Get Rooms">
+	                </form>
+	            </div>
+	            <div id="right-services">
+	                <img src="img/nonac.png" alt="nonac">
+	                <ul>
+	                    <li>Cozy and budget-friendly room suitable for guests who prefer natural ventilation.</li>
+	                    <li>Allows guests to experience a more natural environment.</li>
+	                    <li>Designed to provide comfort using natural airflow and ceiling fans.</li>
+	                </ul>
+	                <form action="login.jsp">
+	                    <p>Get the best Rooms</p>
+	                    <input type="submit" class="nonacroom" value="Get Rooms">
+	                </form>
+	            </div>
+	        </div>
+	    </section>
+    </div>
+    <div class="hexagon">
+        <section>
+            <div class="contact">
+                <h1>Contact us</h1>
+            </div>
+            <div id="contactus">
+                <form action="">
+                    Name <br>
+                    <input type="text" name="name" id="name"><br>
+                    Email <br>
+                    <input type="email" name="email" id="email"><br>
+                    Message <br>
+                    <textarea name="textarea" id="textarea" cols="30" rows="6"></textarea> <br>
+                    <input type="submit" value="Submit" class="contactus-submit">
+                </form>
+            </div>
+        </section>
+    </div>
+	
+</body>
+</html>

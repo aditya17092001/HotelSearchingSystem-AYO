@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/login-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+form
+{
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(89deg,#ffffff -3%,#6e6e6e);
+    padding: 17px 50px 36px 50px;
+    height: auto;
+    width: 400px;
+    border-radius: 35px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: none;
+}
+
+
+table {
+    font-size: 20px;
+    border-collapse: separate;
+    border-spacing: 10px; 
+}
+
+table td {
+    border: none;
+}
+
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    appearance: none; 
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select:focus {
+    border-color: #007bff;
+}
+
+#roomNumber {
+    width: 100%; /* Match the width to the select elements */
+    padding: 10px; /* Add padding for consistency */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    appearance: none;
+}
+form input[type = "submit"]{
+    margin: 0px 0px 0px 141px;
+    padding: 10px 40px 10px 35px;
+    background: linear-gradient(89deg,#ffffff -3%,#6e6e6e);
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+form input[type = "submit"]:hover{
+    background: linear-gradient(270deg,#ffffff -3%,#6e6e6e);
+}

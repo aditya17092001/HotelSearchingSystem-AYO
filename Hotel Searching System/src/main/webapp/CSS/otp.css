@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #000000; /* fallback for old browsers */
+    background-color: black;/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: radial-gradient(circle,#060416 20%,#0c0922 70%);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {  
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url(https://www.nextazy.com/hex.c973acafbe19e3c58a36.svg);
+    background-repeat: repeat;
+    background-position: 50%;
+    opacity: .6;
+    background-size: 34px 29.7px;
+    align-items: space-around;
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+} 
+  /* .container {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    align-items: space-around;
+    justify-content: center;
+  } */
+  
+  .userInput {
+    display: flex;
+    justify-content: center;
+  }
+  
+  input {
+    margin: 10px;
+    height: 35px;
+    width: 65px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: arimo;
+    font-size: 1.2rem;
+    background: #eef2f3;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: arimo;
+    color: honeydew;
+  }
+  
+  .button {
+    width: 150px;
+    height: 40px;
+    margin: 25px auto 0px auto;
+    font-family: arimo;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(89deg,#9bc5c3 -3%,#6e6e6e);
+    display: block;
+    margin: 22px auto;
+  }
+
+  .button:hover{
+    background: linear-gradient(267deg,#9bc5c3 -3%,#6e6e6e);
+  }

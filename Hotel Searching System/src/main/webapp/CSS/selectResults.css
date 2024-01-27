@@ -1,0 +1,80 @@
+html, body, div, h1, h2, h3, p, table, th, td, form, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../img/login-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    flex-direction: column;
+}
+
+
+h1, h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0a0505;
+}
+
+#head2{
+	margin-top: 50px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #505050; 
+    color: #fff; 
+}
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+
+form {
+    display: inline;
+    margin: 0;
+}
+
+input[type="submit"] {
+    background: linear-gradient(270deg,#ffffff -33%,#6e6e6e);
+    /* background-color: #4CAF50; */
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form input[type = "submit"]:hover{
+    background: linear-gradient(270deg,#ffffff -3%,#6e6e6e);
+}

@@ -1,0 +1,27 @@
+#editRooms{
+	padding: 10px 34px 10px 34px
+}
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px; 
+    background: linear-gradient(89deg, #ffffff -3%, #6e6e6e);
+    border: 2px solid black;
+    border-radius: 25px; 
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(270deg, #ffffff -3%, #6e6e6e);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/login-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
